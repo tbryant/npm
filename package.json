@@ -1,7 +1,7 @@
 {
-  "version": "5.6.0",
-  "name": "npm",
-  "description": "a package manager for JavaScript",
+  "version": "1.0.0",
+  "name": "nst-cli",
+  "description": "a package manager for nstrumenta (fork of npm)",
   "keywords": [
     "install",
     "modules",
@@ -12,14 +12,14 @@
   "config": {
     "publishtest": false
   },
-  "homepage": "https://docs.npmjs.com/",
-  "author": "Isaac Z. Schlueter <i@izs.me> (http://blog.izs.me)",
+  "homepage": "https://nstrumenta.com/",
+  "author": "Tyler Bryant",
   "repository": {
     "type": "git",
-    "url": "https://github.com/npm/npm"
+    "url": "https://github.com/tbryant/nst"
   },
   "bugs": {
-    "url": "https://github.com/npm/npm/issues"
+    "url": "https://github.com/tbryant/nst/issues"
   },
   "directories": {
     "bin": "./bin",
@@ -29,7 +29,7 @@
   },
   "main": "./lib/npm.js",
   "bin": {
-    "npm": "./bin/npm-cli.js",
+    "nst": "./bin/npm-cli.js",
     "npx": "./bin/npx-cli.js"
   },
   "dependencies": {
